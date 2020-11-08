@@ -2,6 +2,8 @@
 Detect objects using pre-trained neural network
 
 ## Tracking object with OpenCV
+Locating an object in successive frames of a video is called tracking. Usually tracking algorithms are faster than detection algorithms. When you are tracking an object that was detected in the previous frame, you know a lot about the appearance of the object.
+For a good comparison of OpenCV Tracker Algorithms, read the following link:
 https://ehsangazar.com/object-tracking-with-opencv-fd18ccdd7369
 
 ## Real-time Object Detection using SSD MobileNet V2
