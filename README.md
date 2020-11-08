@@ -9,4 +9,5 @@ https://ehsangazar.com/object-tracking-with-opencv-fd18ccdd7369
 ## Real-time Object Detection using SSD MobileNet V2
 TensorFlow Model Zoo for Object Detection
 The TensorFlow Model Zoo is a collection of pre-trained object detection architectures that have performed tremendously well on the COCO dataset.
-The model architecture that I used in the code is SSD-mobileNet. MobileNet is an object detector released in 2017 as an efficient CNN architecture designed for mobile and embedded vision application. This architecture uses proven depth-wise separable convolutions to build lightweight deep neural networks.
+The model architecture that I used in the code is SSD-mobileNet. Single Shot detector (SSD) like YOLO takes only one shot to detect multiple objects present in an image using multibox. It is significantly faster in speed and high-accuracy object detection algorithm.  MobileNet is an object detector released in 2017 as an efficient CNN architecture designed for mobile and embedded vision application. MobileNet-v2 is a convolutional neural network that is 53 layers deep. This architecture uses proven depth-wise separable convolutions to build lightweight deep neural networks.
+
